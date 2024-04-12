@@ -1,0 +1,9 @@
+<persistence-unit name="EnterpriseApp-ejbPU"
+                  transaction-type="JTA">
+  <jta-data-source>jdbc/__default</jta-data-source>
+  <exclude-unlisted-classes>false</exclude-unlisted-classes>
+  <properties>
+    <property name="jakarta.persistence.schema-generation.database.action"
+              value="create"/>
+  </properties>
+</persistence-unit>
